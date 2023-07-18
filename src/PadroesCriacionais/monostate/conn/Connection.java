@@ -1,4 +1,4 @@
-package PadroesCriacionais.singleton.conn;
+package PadroesCriacionais.monostate.conn;
 
 public class Connection {
 
