@@ -1,0 +1,12 @@
+problemas do singleton: nao consegue trabalhar a partir de interfaces, temos que trabalhar com classes concretas, nao da pra colocar método static em interface
+
+ela fere um principio solid(Single-responsibility principle), a classe alem de criar instancia ela lida com gerenciamento das coisas, tem mais de 1 responsabilidade.
+o maior problema é nao conseguir trabalhar com interface.
+
+Regras do Singleton: 
+  Ele deve possuir uma única instância durante a vida útil da aplicação;
+  Não deve ser possível instanciá-lo através do seu construtor, que precisa ter visibilidade preferencialmente privada;
+  Sua instância deve estar disponível de forma global, no seu projeto.
+
+Monostate deixa os dados implicitos
+o singleton deixa mais explicito
